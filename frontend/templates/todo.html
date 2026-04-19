@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>To-Do App</title>
+</head>
+<body>
+    <p>Add To-Do Item</p>
+    <div class="centred">
+        <form action="/submittodoitem" method="POST">
+            <input type="text" name="itemName" placeholder="Item Name" required><br><br>
+            <textarea name="itemDescription" placeholder="Item Description" required></textarea><br><br>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+<style>
+body{
+    background-color: whitesmoke;
+}
+p{
+    text-align: center;
+    color: blue;
+    font-size: 30px;
+}
+div{
+    text-align: center;
+}
+</style>
+</html>
